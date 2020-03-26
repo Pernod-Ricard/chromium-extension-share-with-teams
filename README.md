@@ -19,34 +19,34 @@ At first, note that following components are used in this extensions and are pro
 
 ## <a id='usage'>Usage</a>
 When the extension has been installed, the following option appears in the toolbar :  
-![toolbar icon](doc/screens/toolbar-icon.png)  
+<img src="doc/screens/toolbar-icon.png" alt="toolbar icon" width="512">  
   
 Juste click on it to execute the extension. At the first launch the authentication must be opened, enter your organization credentials (work of school account).  
 
 When yo are authenticated, the extension load your Teams frm Microsoft Graph Api :  
-![light theme](doc/screens/theme-light.png)  
+<img src="doc/screens/theme-light.png" alt="light theme" width="512">  
 
 Note that the extension applies the same theme than your browser :  
-![dark theme](doc/screens/theme-dark.png)  
+<img src="doc/screens/theme-dark.png" alt="dark theme" width="512">  
 
 Your teams and their channels are saved in the local storage (except the teams icons). These cached data are automatically cleaned and refeshed when you execute the extension after 10 days.  
 You can force the refresh of your teams/channels through that option :  
-![force refresh](doc/screens/force-refresh.png)  
+<img src="doc/screens/force-refresh.png" alt="force refresh" width="512">  
 
 To mention one or many of your colleagues, just enter the first letters of his last name or his email address. A search will be launched through Microsoft Graph Api and you will be able to select your colleague in the people picker :  
-![people picker](doc/screens/people-picker.png)  
+<img src="doc/screens/people-picker.png" alt="people picker" width="512">  
 
 ## <a id='result'>Result in Microsoft Teams</a>
 **Note that all options in the right pane are optionals.**  
-![message options](doc/screens/message-options.png)  
-
-![message options](doc/screens/message-result.png)  
+<img src="doc/screens/message-options.png" alt="message options" width="512">  
+  
+<img src="doc/screens/message-result.png" alt="message result" width="512">  
 
 Unfortunately the Graph Api cannot create the preview that the Teams client application creates when youi share a link.  
 And Graph Api doesn't allow us to create it...  
 
-So the extension creates a Thumbnail Card to simulate that preview :    
-![preview differences](doc/screens/preview-differences.png)  
+So the extension creates a Thumbnail Card to simulate that preview :  
+<img src="doc/screens/preview-differences.png" alt="preview differences" width="512">  
 
 ## <a id='technical-points'>Technical points</a>
 
