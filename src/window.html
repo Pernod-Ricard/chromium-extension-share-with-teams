@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Share with Teams - POC</title>
+        <link type="image/png" rel="icon" href="icons/teams_share_16x16.png">
+        <link href="styles/dx/dx.common.css" rel="stylesheet">
+        <link href="styles/dx/dx.light.css" rel="dx-theme" data-theme="generic.light" data-active="false">
+        <link href="styles/dx/dx.dark.css" rel="dx-theme" data-theme="generic.dark" data-active="true">
+        <link href="styles/extension.css" rel="stylesheet">
+        <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+        <script src="scripts/dx.all.js" type="text/javascript"></script>
+        <script src="scripts/theme.js" type="text/javascript"></script>
+    </head>
+    <body class="dx-theme-generic-typography">
+        <div class="header">
+            <div style="float: left;">
+                <h2 id="title">Share with Teams from Window</h2>
+            </div>
+            <div class="toolbar">
+                <div id="toolbarContainer" class="toolbarContainer"></div>
+            </div>
+        </div>
+        <div style="width: 100%;float: left;">
+            <div class="teams">
+                <div id="teamsContainer"></div>
+                <div id="loadPanelContainer"></div>
+            </div>
+            <div class="options dx-theme-border-color-as-background-color">
+                <div class="caption">Options</div>
+                <div class="option">
+                    <div id="txtSubject"></div>
+                </div>
+                <div class="option">
+                    <div id="txtMessage"></div>
+                </div>
+                <div class="option">
+                    <div id="chkImportant"></div>
+                    <span>Important</span>
+                </div>
+                <div class="option">
+                    <div id="chkMentionTeam"></div>
+                    <span>Mention Team</span>
+                </div>
+                <div class="option">
+                    <div id="chkMentionChannel"></div>
+                    <span>Mention Channel</span>
+                </div>
+                <div class="option">
+                    <div id="tagsMentionPeople" style="float: left;width: 300px;"></div>
+                    <div id="tagsLoadIndicator" style="float: left;margin-left: 5px;"></div>
+                </div>
+                <div id="dialShare"></div>
+            </div>
+        </div>
+        <script src="scripts/window.js" type="text/javascript"></script>
+    </body>
+</html>
